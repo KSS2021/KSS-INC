@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kamaljeet Singh & Son Inc. | Wholesale Distributor NJ</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 25px 8%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-weight: 500;
+    }
+
+    .hero {
+      padding: 80px 8%;
+      background: linear-gradient(135deg, #0f172a, #2563eb);
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 46px;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 800px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #22c55e;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 8px;
+    }
+
+    .btn.secondary {
+      background: white;
+      color: #1e3a8a;
+    }
+
+    section {
+      padding: 60px 8%;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 15px;
+      color: #0f172a;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      color: #64748b;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 14px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #1e3a8a;
+    }
+
+    .placeholder {
+      height: 150px;
+      background: #e2e8f0;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #64748b;
+      margin-bottom: 18px;
+      font-weight: bold;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .about-box {
+      max-width: 950px;
+      margin: auto;
+      background: #f8fafc;
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    }
+
+    .features {
+      background: #0f172a;
+      color: white;
+    }
+
+    .features .section-title {
+      color: white;
+    }
+
+    .features .card {
+      background: #1e293b;
+      color: white;
+    }
+
+    .contact {
+      background: white;
+    }
+
+    .contact-box {
+      max-width: 800px;
+      margin: auto;
+      background: #f8fafc;
+      padding: 35px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .contact-box p {
+      margin: 12px 0;
+      font-size: 18px;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #22c55e;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 34px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+
+      nav {
+        text-align: center;
+        justify-content: center;
+      }
+
+      nav a {
+        margin: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">Kamaljeet Singh & Son Inc.</div>
+      <div>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#why">Why Us</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Wholesale Distribution Made Simple</h1>
+    <p>
+      New Jersey-based wholesale distributor supplying retailers, convenience stores,
+      discount stores, and small businesses with quality merchandise, cleaning supplies,
+      household products, personal care items, and seasonal goods.
+    </p>
+    <a class="btn" href="tel:9737458405">Call Now</a>
+    <a class="btn secondary" href="#products">View Products</a>
+  </section>
+
+  <section id="products">
+    <h2 class="section-title">Our Product Categories</h2>
+    <p class="section-subtitle">
+      We provide bulk purchasing options and competitive wholesale pricing for stores and businesses.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>Cleaning Supplies</h3>
+        <p>Dish soap, detergents, air fresheners, hand soap, and household cleaners.</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>General Merchandise</h3>
+        <p>Everyday store items, value products, convenience items, and bulk goods.</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>Personal Care</h3>
+        <p>Toothpaste, body sprays, soaps, hygiene products, and beauty essentials.</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>Household Items</h3>
+        <p>Kitchen, home, hardware, storage, and practical household products.</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>Seasonal Products</h3>
+        <p>Umbrellas, holiday items, summer goods, winter products, and special deals.</p>
+      </div>
+
+      <div class="card">
+        <div class="placeholder">Product Photo</div>
+        <h3>Convenience Store Essentials</h3>
+        <p>Fast-moving products for grocery stores, mini-marts, and retail shops.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="section-title">About Our Company</h2>
+    <div class="about-box">
+      <p>
+        Kamaljeet Singh & Son Inc. is a New Jersey-based wholesale distribution company
+        located in Colonia, NJ. We specialize in supplying general merchandise, household
+        products, cleaning supplies, personal care items, seasonal products, and convenience
+        store essentials.
+      </p>
+      <br>
+      <p>
+        Our mission is to help retailers and small businesses access reliable products,
+        competitive wholesale pricing, and dependable service. We focus on strong customer
+        relationships, honest business, and efficient distribution across local and interstate markets.
+      </p>
+    </div>
+  </section>
+
+  <section id="why" class="features">
+    <h2 class="section-title">Why Choose Us</h2>
+    <p class="section-subtitle">
+      We work with business customers who need reliable supply, bulk pricing, and fast service.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Wholesale Pricing</h3>
+        <p>Competitive pricing for bulk orders and repeat business customers.</p>
+      </div>
+
+      <div class="card">
+        <h3>Reliable Service</h3>
+        <p>Professional communication and dependable order support.</p>
+      </div>
+
+      <div class="card">
+        <h3>Wide Product Range</h3>
+        <p>Cleaning, household, personal care, seasonal, and general merchandise.</p>
+      </div>
+
+      <div class="card">
+        <h3>Business Friendly</h3>
+        <p>Serving convenience stores, discount stores, mini-marts, and retailers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">
+      Interested in wholesale pricing or bulk purchasing? Contact us today.
+    </p>
+
+    <div class="contact-box">
+      <p><strong>Kamaljeet Singh & Son Inc.</strong></p>
+      <p>1333 St. Georges Ave, Colonia, NJ 07067</p>
+      <p>Phone: <a href="tel:9737458405">973-745-8405</a></p>
+      <p>Email: your-email@example.com</p>
+      <br>
+      <a class="btn" href="tel:9737458405">Call for Wholesale Pricing</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Kamaljeet Singh & Son Inc. All Rights Reserved.</p>
+    <p>Wholesale Distribution | Colonia, New Jersey</p>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/19737458405" target="_blank">WhatsApp</a>
+
+</body>
+</html>
